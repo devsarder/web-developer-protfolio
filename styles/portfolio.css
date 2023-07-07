@@ -19,6 +19,7 @@ body {
 /* nav starts */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
 }
 .nav-tittle {
   font-size: 45px;
@@ -49,8 +50,54 @@ li a {
   display: flex;
   align-items: center;
   padding: 50px 20px 20px 150px;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
 }
 .profile-pic {
   width: 584px;
   height: 676px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 700;
+  color: #747477;
+  margin-bottom: 0px;
+}
+.banner-tittle {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.banner-description {
+  margin-bottom: 30px;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+}
+/* main section style */
+.about {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 120px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* about section styles */
+.section-description {
+  color: #757575;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
