@@ -14,10 +14,12 @@ body {
   font-weight: 700;
   padding: 16px 35px;
   color: white;
-
 }
 
 /* nav starts */
+.header {
+  background-color: #fff8f3;
+}
 .nav-tittle {
   font-size: 45px;
   font-style: normal;
@@ -28,6 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 150px;
 }
 
 nav > ul {
@@ -41,4 +44,13 @@ nav li {
 
 li a {
   text-decoration: none;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px 20px 150px;
+}
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
