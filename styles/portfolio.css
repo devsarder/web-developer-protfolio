@@ -83,11 +83,17 @@ li a {
   border: 2px solid #fd6e0a;
 }
 /* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section styles */
 .about {
   text-align: center;
   border-radius: 10px;
   background: #fff8f3;
   padding: 120px;
+  margin: 100px 0 60px 0;
 }
 .section-title {
   color: #181818;
@@ -96,11 +102,6 @@ li a {
   font-weight: 700;
 }
 
-/* about section styles */
-
-.about {
-  margin-top: 50px 50px;
-}
 .section-description {
   color: #757575;
   text-align: justify;
@@ -108,3 +109,17 @@ li a {
   font-weight: 400;
   line-height: 30px;
 }
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.about-info {
+  text-align: center;
+}
+.info-description {
+  font-weight: 800;
+}
+
+
