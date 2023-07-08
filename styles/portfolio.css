@@ -49,8 +49,11 @@ li a {
 .banner {
   display: flex;
   align-items: center;
-  padding: 50px 20px 20px 150px;
+  padding: 50px 20px 0px 150px;
   justify-content: space-between;
+  background-image: url("../images/header_bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 .banner-content {
   max-width: 500px;
@@ -94,6 +97,10 @@ li a {
 }
 
 /* about section styles */
+
+.about {
+  margin-top: 50px 50px;
+}
 .section-description {
   color: #757575;
   text-align: justify;
