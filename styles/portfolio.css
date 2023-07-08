@@ -162,6 +162,42 @@ main > section {
   font-weight: 400;
   line-height: 28px;
 }
+.resume-item-institute {
+  color: #757575;
+}
 .btn-resume {
   margin-top: 20px;
+}
+
+/* footer related styles */
+footer {
+  background-color: #fff8f3;
+  margin-top: 130px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: start;
+
+  max-width: 1140px;
+  text-align: left;
+}
+.footer-social {
+  text-align: left;
+}
+.f-contact-details {
+  display: inline-block;
+}
+footer input,textarea {
+  display: block;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  padding: 18px;
+}
+.social-icon {
+  display: inline;
+margin-right: 24px;
+  /* flex-direction: column; */
 }
